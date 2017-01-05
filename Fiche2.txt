@@ -3,3 +3,4 @@ Prénom : Yohann
 Date de naissance : 10/08/81
 lieu de naissance : Le Puy-en-Velay 45° 2' 39" N, 3° 53' 9" E
 Couleur: vert
+Hobby: Geek
