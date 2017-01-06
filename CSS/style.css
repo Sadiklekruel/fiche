@@ -1,32 +1,38 @@
-li {
-    color: green;
+body {
+    background-image: url(../image/tree-838667_1280.jpg);
+}
+h1 {
+    margin: 1em;
+    font-size: 4em;
+    text-align: center;
+    color: darkmagenta;
+    background-color: none;
+    font-style: italic;
+    font-family: times new roman;
 }
 p {
     color: purple;
+    font-style: italic;
+}
+a {
+    font-size: 2em;
+    text-decoration: none;
+}
+a:hover {
+    color:blue;
+}
+a:visited {
+    color:purple;
+}
+li {
+    color: indigo;
+    text-align:left;
+    font-size: 2em;
 }
 label {
-    color: #383854;
+    color: midnightblue;
     font-weight: bold;
 }
 label.futur {
     font-style: italic;
-}
-h1 {
-    font-size: 4em;
-    border: 1px solid darkmagenta;
-    text-align: center;
-    margin: 1em;
-}
-a:hover {
-    color:green
-}
-a:visited {
-    color:orange
-}
-body {
-    background-color: grey
-}
-h1 {
-    color: crimson;
-    background-color: MidnightBlue ;
 }
