@@ -1,0 +1,32 @@
+li {
+    color: green;
+}
+p {
+    color: purple;
+}
+label {
+    color: #383854;
+    font-weight: bold;
+}
+label.futur {
+    font-style: italic;
+}
+h1 {
+    font-size: 4em;
+    border: 1px solid darkmagenta;
+    text-align: center;
+    margin: 1em;
+}
+a:hover {
+    color:green
+}
+a:visited {
+    color:orange
+}
+body {
+    background-color: grey
+}
+h1 {
+    color: crimson;
+    background-color: MidnightBlue ;
+}
