@@ -1,5 +1,5 @@
 body {
-    background-image: url(../image/tree-838667_1280.jpg);
+    background-image: url(../image/);
 }
 nav li{
     font-size: 1em;
@@ -11,38 +11,51 @@ nav {
 }
 nav a {
 	display:inline-block;
-	margin: 0 30px;
-    background: midnightblue;
-    border-radius: 30px;
+	margin: 2em 30px;
+    background: cyan;
+    border-radius: 50px;
     padding: 5px 10px;
 }
 h1 {
     margin: 1em;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
-    color: darkmagenta;
-    background-color: blue;
+    color: purple;
+    background-color: cyan;
     font-style: italic;
     font-weight: bolder;
     font-family: times;
     border-radius: 30px;
+}
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: purple;
+}
+h3 {
+    background: -webkit-linear-gradient(0deg, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 p {
     color: purple;
     font-style: italic;
 }
 a {
-    font-size: 2em;
+    font-size: 3em;
     text-decoration: none;
+    text-align: center;
 }
 a:hover {
-    color:blue;
+    background: -webkit-linear-gradient(0deg, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 a:visited {
     color:purple;
 }
 li {
-    color: indigo;
+    color: purple;
     text-align:left;
     font-size: 1em;
 }
@@ -50,17 +63,31 @@ label {
     color: midnightblue;
     font-weight: bold;
     display: inline-block;
-    width:7em;
-}
-form {
-    width:40%
+    width:9em;
+    margin-top: 2em;
 }
 label.futur {
     font-style: italic;
 }
+form {
+    width:40%;
+    margin-top: 3em;
+}
+legend {
+    font-size: 1em;
+    color: blue;
+}
+fieldset {
+    width:50%;
+    border-radius: 30px;
+}
+input {
+    border-radius: 30px;
+    border-color: blue;
+}
 section {
     font-style: italic;
-    color:black;
+    font-size: 1em;
     font-weight: bold;
-    font-size: 150%;
+    color: purple;
 }
