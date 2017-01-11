@@ -49,6 +49,11 @@ li {
 label {
     color: midnightblue;
     font-weight: bold;
+    display: inline-block;
+    width:7em;
+}
+form {
+    width:40%
 }
 label.futur {
     font-style: italic;
